@@ -14,7 +14,8 @@ public class DataUtils {
 	}
 	
 	public static String obterDataFormatada(Date data) {
-		DateFormat format = new SimpleDateFormat("dd/MM/YYYY HH:mm:ss");
+		DateFormat format = new SimpleDateFormat("dd/MM/YYYY");
 		return format.format(data);
 	}
 }
+
